@@ -1,0 +1,27 @@
+{
+  "manifest_version": 2,
+  "name": "Grabador de sesiones .har",
+  "version": "1.0",
+  "description": "Esta extensión graba sesiones de usuario en archivos .har.",
+  "permissions": [
+    "tabs",
+    "webRequestBlocking",
+    "<all_urls>",
+    "downloads",
+    "webRequest"
+  ],
+  "background": {
+    "page": "background.html"
+  },
+  "browser_action": {
+    "default_popup": "popout.html",
+    "default_icon": {
+      "16": "varxen.png"
+    }
+  },
+  "content_scripts": [{
+    "matches": ["<all_urls>"],
+    "js": ["content.js"],
+    "run_at": "document_start"
+  }]
+}

@@ -1,0 +1,58 @@
+.plugin-log-in {
+  position: relative;
+  width: 850px;
+  height: 850px;
+  background: #FFFFFF;
+}
+
+.rectangle-11 {
+  position: absolute;
+  width: 370px;
+  height: 60px;
+  left: 240px;
+  top: 290px;
+  background: #D9D9D9;
+  border-radius: 10px;
+}
+
+.rectangle-12 {
+  position: absolute;
+  width: 370px;
+  height: 60px;
+  left: 240px;
+  top: 425px;
+  background: #9D9999;
+  border-radius: 10px;
+}
+
+.start-recording-button {
+  position: absolute;
+  width: 192px;
+  height: 35px;
+  left: 89px;
+  top: 13px;
+  font-family: 'Mulish';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 150%;
+  color: #000000;
+  background: none;
+  border: none;
+}
+
+.stop-recording-button {
+  position: absolute;
+  width: 192px;
+  height: 35px;
+  left: 89px;
+  top: 13px;
+  font-family: 'Mulish';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 150%;
+  color: #000000;
+  background: none;
+  border: none;
+}
