@@ -11,17 +11,17 @@
     "webRequest"
   ],
   "background": {
-    "page": "background.html"
+    "page": "background/background.html"
   },
   "browser_action": {
-    "default_popup": "popout.html",
+    "default_popup": "popout/popout.html",
     "default_icon": {
-      "16": "varxen.png"
+      "16": "images/varxen.png"
     }
   },
   "content_scripts": [{
     "matches": ["<all_urls>"],
-    "js": ["content.js"],
+    "js": ["content_scripts/content.js"],
     "run_at": "document_start"
   }]
 }
